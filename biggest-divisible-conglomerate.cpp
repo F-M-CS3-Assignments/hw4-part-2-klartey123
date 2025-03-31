@@ -18,7 +18,9 @@ using namespace std;
 // O(n^2) Due to the nested for loop that goes to construct the chains. 
 
 // My last approach which the more I learn I realized resmbles more of a brute force approach 
-//
+//The time cvomplexity of that would also be O(n^2) since with the appraoch, there is an otuter loop
+// then an inner loop to check itself. Howevever this is a less effective approach than the the DP
+// table due to redoing the smae sub problems again. 
 
 // Convert to string
 string vec_to_string(vector<int> v){
