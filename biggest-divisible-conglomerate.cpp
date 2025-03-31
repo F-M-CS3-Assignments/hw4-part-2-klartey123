@@ -14,6 +14,12 @@ using namespace std;
 // The second largest number will be divisible by those smaller numbers
 // You do that till the first number. 
 
+// This appraochh will be dynamic programming. The time complexity for this one will be 
+// O(n^2) Due to the nested for loop that goes to construct the chains. 
+
+// My last approach which the more I learn I realized resmbles more of a brute force approach 
+//
+
 // Convert to string
 string vec_to_string(vector<int> v){
     string s;
